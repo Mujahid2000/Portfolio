@@ -1,4 +1,6 @@
-import * as React from 'react';
+
+
+import React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -10,10 +12,11 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
+import { Link, } from 'react-router-dom';
+
+
 
 const pages = ['Home', 'Projects', 'About', 'Blog', 'Contact'];
-
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -35,27 +38,27 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="fixed" sx={{backgroundColor: '#673ab7'}}>
+    <AppBar position="fixed" sx={{ backgroundColor: '#673ab7' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="#app-bar-with-responsive-menu"
-            sx={{
-              mr: 2,
-              display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '0.1rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-          >
-            <img className='w-10 h-8' src="https://imgtr.ee/images/2023/12/06/355ca83c4da0ce989e6752934819ecc5.png" alt=""  />
-            MujahidulIslam
-          </Typography>
+        <Typography
+  variant="h6"
+  noWrap
+  component={Link}
+  to="/"
+  sx={{
+    mr: 2,
+    display: { xs: 'none', md: 'flex' },
+    fontFamily: 'monospace',
+    fontWeight: 700,
+    letterSpacing: '0.1rem',
+    color: 'inherit',
+    textDecoration: 'none',
+  }}
+>
+  <img className='w-10 h-8 ' src="https://imgtr.ee/images/2023/12/06/355ca83c4da0ce989e6752934819ecc5.png" alt=""  />
+  MujahidulIslam
+</Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
@@ -88,20 +91,20 @@ function ResponsiveAppBar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                  <Typography textAlign="center" component={Link} to={page === 'Home' ? '/' : `/${page.toLowerCase()}`}>
+                    {page}
+                  </Typography>
                 </MenuItem>
               ))}
             </Menu>
           </Box>
-          {/* <img className='w-10 h-8' src="https://imgtr.ee/images/2023/12/06/355ca83c4da0ce989e6752934819ecc5.png" alt=""  /> */}
-          {/* <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
+
           <Typography
             variant="h5"
             noWrap
-            component="a"
-            href="#app-bar-with-responsive-menu"
+            component={Link}
+            to="/"
             sx={{
-              
               display: { xs: 'flex', md: 'none' },
               flexGrow: 1,
               fontFamily: 'monospace',
@@ -109,27 +112,35 @@ function ResponsiveAppBar() {
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
-              
             }}
           >
             MujahidulIslam
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' , justifyContent: 'flex-end'} }}>
-            {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', fontFamily: 'monospace', fontSize: '1rem', display: 'block', backgroundColor: page === 'Contact' ? '#511da8' : 'transparent', }}
-              >
-                {page}
-              </Button>
-            ))}
-          </Box>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: 'flex-end' } }}>
+          {pages.map((page) => (
+            <Button
+              key={page}
+              component={Link}
+              to={page === 'Home' ? '/' : `/${page.toLowerCase()}`}
+              onClick={handleCloseNavMenu}
+              sx={{
+                my: 2,
+                color: 'white',
+                fontFamily: 'monospace',
+                fontSize: '1rem',
+                display: 'block',
+                backgroundColor: page === 'Contact' ? '#511da8' : 'transparent',
+              }}
+            >
+              {page}
+            </Button>
+          ))}
+        </Box>
 
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                
+                {/* Add icon component here */}
               </IconButton>
             </Tooltip>
             <Menu
@@ -148,7 +159,7 @@ function ResponsiveAppBar() {
               open={Boolean(anchorElUser)}
               onClose={handleCloseUserMenu}
             >
-              
+              {/* Add user menu items here */}
             </Menu>
           </Box>
         </Toolbar>
@@ -156,4 +167,5 @@ function ResponsiveAppBar() {
     </AppBar>
   );
 }
+
 export default ResponsiveAppBar;
