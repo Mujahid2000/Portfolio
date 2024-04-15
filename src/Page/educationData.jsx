@@ -29,7 +29,7 @@ const EducationComponent = () => {
   });
 
   return (
-    <div className="p-8 lg:mx-52 max-w-[1800px] mx-auto mt-10">
+    <div className="py-8 px-6 lg:mx-52 max-w-[1600px] mx-auto mt-5">
       <h2 className="text-3xl mb-4 text-center font-mono">
         My Education Journey
       </h2>

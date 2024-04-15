@@ -56,7 +56,7 @@ function ResponsiveAppBar() {
     textDecoration: 'none',
   }}
 >
-  <img className='w-10 h-8 ' src="https://imgtr.ee/images/2023/12/06/355ca83c4da0ce989e6752934819ecc5.png" alt=""  />
+  
   MujahidulIslam
 </Typography>
 

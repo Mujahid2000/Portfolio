@@ -7,8 +7,8 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Link } from 'react-router-dom';
 const Banner = () => {
     return (
-        <div>
-            <div className="sm:items-center mt-20 sm:flex-row lg:flex items-center lg:justify-between lg:mx-52">
+        <div className='max-w-[1880px] mx-auto '>
+            <div className="sm:items-center mt-20 sm:flex-row lg:flex items-center justify-around ">
             <div >
             <h3 className="font-mono text-2xl font-semibold ml-5">Hi I'm <span className='text-indigo-600'>Mujahidul Islam</span> </h3>
             <h2 className='flex ml-5 text-base lg:text-2xl lg:mt-4 font-mono'>I'm a <span className='font-bold text-cyan-500 text-base lg:text-3xl'>
@@ -20,15 +20,17 @@ const Banner = () => {
             ]} />
             </span> 
             </h2>
-            <p className='font-mono text-lg mt-3 px-3 lg:w-[800px] text-justify ml-2'>
+            <p className='font-mono text-lg mt-3 px-3 md:w-[700px] lg:w-[600px] text-justify ml-2'>
             As junior Web Developer skilled in HTML, CSS, and JavaScript, specializing in full-stack development. Proficient in ReactJS, Node.js/Express.js, and MongoDB. Proven hands-on expertise in dynamic web development, eager for new challenges.
             </p>
 
             <div className='flex gap-7 mt-5 ml-5'>
+            <div className='flex gap-3'>
             <Link to={'/projects'}>
             <Button  color='success' variant="contained" >View Projects</Button>
             </Link>
-            <Button href='https://drive.usercontent.google.com/download?id=19S7j6vBEeEsJXvCfK1DbJjXx21ZmPZs3&export=download&authuser=0&confirm=t&uuid=c7fab1e6-6b4f-453c-9aec-4fd9ae2f2c98&at=APZUnTXeMKQU84R9uzetobfyJX6t:1702237301051' variant="contained" endIcon={<ArrowDownwardIcon />} >download CV</Button>
+            <Button href='https://drive.usercontent.google.com/download?id=1zI_Z7IerPeomLvcOFWZoVTixSs5O3GQ7&export=download&authuser=2&confirm=t&uuid=2b44e543-1a2d-4db8-b8ae-a5a0e8940f53&at=APZUnTUtitdz6hNVOGLE3qIzvlZV:1706365179661' variant="contained" endIcon={<ArrowDownwardIcon />} >download CV</Button>
+            </div>
             </div>
             <p className='mt-5 text-lg font-mono ml-5'>Connect With Me</p>
             <div className='flex gap-8 mt-4 ml-5'>
@@ -45,11 +47,9 @@ const Banner = () => {
             </Button>
             </div>
             
-            
-            
             </div>
-            <div className='items-center'>
-            <img className="sm:rounded-full lg:rounded-md  ml-8 mt-9  sm:h-28 w-80 lg:h-96" src="https://imgtr.ee/images/2023/12/07/d2d9ef058f383927fd2cb565623eb588.jpeg" alt="" />
+            <div>
+            <img className=" lg:rounded-md items-center mx-auto justify-center flex mt-9 h-80 w-80 lg:h-96" src="https://i.ibb.co/ygLpwPN/01987064-removebg-preview.png" alt="" />
             </div>
         </div>
         
