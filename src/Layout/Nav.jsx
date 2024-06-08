@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
-const image = '/src/assets/m logo.png'
+const image = 'https://i.ibb.co/fSV94Hs/m-logo.png'
   const handleMenu = () => {
     setMenu(!menu);
   };
