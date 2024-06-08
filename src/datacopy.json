@@ -14,7 +14,7 @@
   {
     "id": 2,
     "title": "BazarBD",
-    "category": "personal Project",
+    "category": "Personal Project",
     "overview": "This is a E-Commerce Website. In this website i implement for users a dashboard and also i create a admin dashboard.In home page I create product category section and showing some product . also i create top product based on rating. I create a beautiful banner. I create a flash sale page, when a use come this page. The use see a time out system and some product for open flash sale. I implement a navbar search system.In this searching page user can search any products and filtering with price and rating. ",
     "client_link": "https://github.com/Mujahid2000/Bazar-BD",
     "server_link": "https://github.com/Mujahid2000/Bazar-BD-Server",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "title": "Fitness Center Project",
-    "category": "personal Project",
+    "category": "Personal Project",
     "overview": "This is a Fitness related website. Where a customer see about a company which service they provide and take service from this company. And a trainer can also apply on this company using this website. In this website, user, trainer, and admin dashboard. A user can book a trainer. A user can see schedule class.",
     "client_link": "https://github.com/Mujahid2000/Fitness-Website",
     "server_link": "https://github.com/Mujahid2000/Fitness-Server",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "title": "Taskla Project",
-    "category": "personal Project",
+    "category": "Personal Project",
     "overview": "In this website you can show a home page where have some section. Job category part is one of the most important part. This part show some jobs. In every client can post job by using his account. And a freelancer can apply this job. Here is some or route. When you go my bid jobs how much bid you have and when you go bid request you will show how much job request on your posted jobs.",
     "client_link": "https://github.com/Mujahid2000/Market-Place-Website-Client",
     "server_link": "https://github.com/Mujahid2000/Market-Place-Website-Server",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "title": "Car Deals Project",
-    "category": "personal Project",
+    "category": "Personal Project",
     "overview": "Explore a dynamic car marketplace with a homepage featuring car brands. Navigate through the navbar to discover brand-specific products. View, update details, and add products to the cart. Experience a comprehensive platform for buying, selling, and updating cars with user-friendly interactions.",
     "client_link": "https://github.com/Mujahid2000/Brand-Client-Site",
     "server_link": "https://github.com/Mujahid2000/Brand-Server-Site",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "title": "Home Decor Project",
-    "category": "personal Project",
+    "category": "Personal Project",
     "overview": "Its a Simple E-commerce Website. Where a use can buy their home decor related products.",
     "client_link": "https://github.com/Mujahid2000/Home-Decor",
     "server_link": "https://github.com/Mujahid2000/jobtask-serverside",
