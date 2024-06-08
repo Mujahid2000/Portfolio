@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Data from '../../data copy.json';
+import Data from '../../datacopy.json';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
