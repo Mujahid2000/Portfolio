@@ -24,7 +24,7 @@ const ProjectDetail = () => {
          <h3 className='text-lg'>Technology: {data.Technology}</h3>
           
         </div>
-        <p className="leading-relaxed">{data.overview}</p>
+        <p className="leading-relaxed text-justify">{data.overview}</p>
         <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-200 mb-5">
           
           <div className="flex ml-6 items-center">

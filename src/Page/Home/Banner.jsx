@@ -1,6 +1,6 @@
 import { Button } from '@mui/material';
 import {MovingComponent} from 'react-moving-text' 
-import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+
 import GitHubIcon from '@mui/icons-material/GitHub';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -15,8 +15,8 @@ const Banner = () => {
                 <MovingComponent type="typewriter"
             dataText={[
             'MERN Stack Developer',
-            'React Expert',
-            'Javascript Expert'
+            'React Developer',
+            'Javascript Developer'
             ]} />
             </span> 
             </h2>
@@ -31,21 +31,24 @@ const Banner = () => {
               Projects
             </button>
             </Link>
-            <button href='https://drive.usercontent.google.com/download?id=1zI_Z7IerPeomLvcOFWZoVTixSs5O3GQ7&export=download&authuser=2&confirm=t&uuid=2b44e543-1a2d-4db8-b8ae-a5a0e8940f53&at=APZUnTUtitdz6hNVOGLE3qIzvlZV:1706365179661'className="rounded-md border text-gray-700 hover:text-white border-gray-500 hover:bg-pink-600 hover:border-white font-bold py-2 px-4 rounded" >download CV</button>
+            <Link to={'https://drive.usercontent.google.com/download?id=1zI_Z7IerPeomLvcOFWZoVTixSs5O3GQ7&export=download&authuser=2&confirm=t&uuid=2b44e543-1a2d-4db8-b8ae-a5a0e8940f53&at=APZUnTUtitdz6hNVOGLE3qIzvlZV:1706365179661'}>
+            
+            <button className="rounded-md border text-gray-700 hover:text-white border-gray-500 hover:bg-pink-600 hover:border-white font-bold py-2 px-4" >download CV</button>
+            </Link>
             </div>
             </div>
             <p className='mt-5 text-lg font-mono ml-5'>Connect With Me</p>
             <div className='flex gap-8 mt-4 ml-5'>
-            <Button href='https://github.com/' sx={{ backgroundColor: '#eceff1', }}>
-            <GitHubIcon sx={{ fontSize: '1.8rem'}}/>
-            </Button>
 
+            <Button href='https://www.linkedin.com/in/mujahidul-islam-07b5a42a0/' sx={{ backgroundColor: '#eceff1'}}>
+            <LinkedInIcon sx={{ fontSize: '1.8rem' }}/>
+            </Button>
             <Button href='https://www.facebook.com/mujahidul.islam.1656854/' sx={{ backgroundColor: '#eceff1'}}>
             <FacebookOutlinedIcon sx={{ fontSize: '1.8rem' }}/>
             </Button>
 
-            <Button href='https://www.linkedin.com/in/mujahidul-islam-07b5a42a0/' sx={{ backgroundColor: '#eceff1'}}>
-            <LinkedInIcon sx={{ fontSize: '1.8rem' }}/>
+            <Button href='https://github.com/' sx={{ backgroundColor: '#eceff1', }}>
+            <GitHubIcon sx={{ fontSize: '1.8rem', color: '#000000'}}/>
             </Button>
             </div>
             
