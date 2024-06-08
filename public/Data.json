@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "title": "Streme ",
+      "category": "Group Project",
+      "overview": "The user dashboard facilitates video uploads and playback with features like liking and saving to playlists. Additionally, users can interact with a chatbot and engage in messaging with others. This comprehensive platform provides seamless video management, social interaction, and AI-powered assistance, enhancing the user experience across various activities.",
+      "client_link": "https://github.com/sajalbiswas1/video-stream-client-side",
+      "server_link": "https://github.com/sajalbiswas1/video-stream-server-side",
+      "live_link": "https://streme-eight.vercel.app/",
+      "picture": "../src/assets/image (1).jpg",
+      "Technology": "Next.js, Tailwind CSS, ExpressJS, Firebase, Node.js MongoDB."
+      
+    },
+    {
+      "id": 2,
+      "title": "BazarBD",
+      "category": "personal Project",
+      "overview": "This is a Fitness related website. Where a customer see about a company which service they provide and take service from this company. And a trainer can also apply on this company using this website. In this website, user, trainer, and admin dashboard. A user can book a trainer. A user can see schedule class.",
+      "client_link": "https://github.com/Mujahid2000/Bazar-BD",
+      "server_link": "https://github.com/Mujahid2000/Bazar-BD-Server",
+      "live_link": "https://bazar-bd.vercel.app/",
+      "picture": "../src/assets/image(5).jpeg",
+      "Technology": "React, Tailwind CSS, Node.js, Express.js, Firebase, MongoDB, JWT"
+      
+    },
+    {
+      "id": 3,
+      "title": "Fitness Center Project",
+      "category": "personal",
+      "overview": "In this website you can show a home page where have some section. Job category part is one of the most important part. This part show some jobs. In every client can post job by using his account. And a freelancer can apply this job. Here is some or route. When you go my bid jobs how much bid you have and when you go bid request you will show how much job request on your posted jobs.",
+      "client_link": "https://github.com/Mujahid2000/Fitness-Website",
+      "server_link": "https://github.com/Mujahid2000/Fitness-Server",
+      "live_link": "https://fitness-website-amber.vercel.app/",
+      "picture": "../src/assets/image (2).jpg",
+      "Technology": "React, Tailwind CSS, Node.js, Express.js, Firebase, MongoDB, JWT"
+      
+    },
+    {
+      "id": 5,
+      "title": "Taskla Project",
+      "category": "personal",
+      "overview": "In this website you can show a home page where have some section. Job category part is one of the most important part. This part show some jobs. In every client can post job by using his account. And a freelancer can apply this job. Here is some or route. When you go my bid jobs how much bid you have and when you go bid request you will show how much job request on your posted jobs.",
+      "client_link": "https://github.com/Mujahid2000/Market-Place-Website-Client",
+      "server_link": "https://github.com/Mujahid2000/Market-Place-Website-Server",
+      "live_link": "https://market-place-website-client.vercel.app/",
+      "picture": "../src/assets/image (3).jpg",
+      "Technology": "React, Tailwind CSS, Node.js, Express.js, Firebase, MongoDB, JWT."
+      
+    },
+    {
+      "id": 5,
+      "title": "Car Deals Project",
+      "category": "personal",
+      "overview": "Explore a dynamic car marketplace with a homepage featuring car brands. Navigate through the navbar to discover brand-specific products. View, update details, and add products to the cart. Experience a comprehensive platform for buying, selling, and updating cars with user-friendly interactions.",
+      "client_link": "https://github.com/Mujahid2000/Brand-Client-Site",
+      "server_link": "https://github.com/Mujahid2000/Brand-Server-Site",
+      "live_link": "https://pumped-side.surge.sh/",
+      "picture": "../src/assets/image (4).jpg",
+      "Technology": "ReactJs,Tailwind CSS, ExpressJS, Firebase, MongoDB"
+      
+    },
+    {
+      "id": 6,
+      "title": "Home Decor Project",
+      "category": "personal",
+      "overview": "Its a Simple E-commerce Website. Where a use can buy their home decor related products.",
+      "client_link": "https://github.com/Mujahid2000/Home-Decor",
+      "server_link": "https://github.com/Mujahid2000/jobtask-serverside",
+      "live_link": "https://home-decor-chi.vercel.app/",
+      "picture": "../src/assets/image(6).jpg",
+      "Technology": "ReactJs,Tailwind CSS, ExpressJS, Firebase, MongoDB"
+      
+    }
+  ]
+  

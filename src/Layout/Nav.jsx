@@ -1,171 +1,132 @@
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
-
-import React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
-import Menu from '@mui/material/Menu';
-import MenuIcon from '@mui/icons-material/Menu';
-import Container from '@mui/material/Container';
-import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
-import MenuItem from '@mui/material/MenuItem';
-import { Link, } from 'react-router-dom';
-
-
-
-const pages = ['Home', 'Projects', 'About', 'Blog', 'Contact'];
-
-function ResponsiveAppBar() {
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
-
-  const handleOpenNavMenu = (event) => {
-    setAnchorElNav(event.currentTarget);
-  };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
-
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
-  };
-
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
+const Navbar = () => {
+  const [menu, setMenu] = useState(false);
+const image = '/src/assets/m logo.png'
+  const handleMenu = () => {
+    setMenu(!menu);
   };
 
   return (
-    <AppBar position="fixed" sx={{ backgroundColor: '#673ab7' }}>
-      <Container maxWidth="xl">
-        <Toolbar disableGutters>
-        <Typography
-  variant="h6"
-  noWrap
-  component={Link}
-  to="/"
-  sx={{
-    mr: 2,
-    display: { xs: 'none', md: 'flex' },
-    fontFamily: 'monospace',
-    fontWeight: 700,
-    letterSpacing: '0.1rem',
-    color: 'inherit',
-    textDecoration: 'none',
-  }}
->
-  
-  MujahidulIslam
-</Typography>
+    <div>
+      <nav className="bg-gray-800">
+        <div className="mx-auto max-w-[1440px] px-2 sm:px-6 lg:px-8">
+          <div className="relative flex h-16 items-center justify-between">
+            <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <button
+                onClick={handleMenu}
+                type="button"
+                className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white"
+                aria-controls="mobile-menu"
+                aria-expanded={menu}
+              >
+                <span className="sr-only">Open main menu</span>
+                {menu ? (
+                  <svg
+                    className="block h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                ) : (
+                  <svg
+                    className="block h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                    />
+                  </svg>
+                )}
+              </button>
+            </div>
+            <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start md:justify-between w-full">
+              <Link to={'/'}>
+                <div className="flex flex-shrink-0 items-center">
+                  <img
+                    className="h-12 w-auto"
+                    src={image}
+                    alt="Your Company"
+                  />
+                </div>
+              </Link>
+              <div className="hidden sm:ml-6 sm:block">
+                <div className="flex space-x-4">
+                  <ul className="flex justify-between w-full">
+                    <Link to={'/'}>
+                      <li className="rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">
+                        Home
+                      </li>
+                    </Link>
+                    <Link to={'/projects'}>
+                      <li className="rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">
+                        Projects
+                      </li>
+                    </Link>
+                    <Link to={'/contact'}>
+                      <li className="rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">
+                        Contact
+                      </li>
+                    </Link>
+                    <Link to={'/about'}>
+                      <li className="rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">
+                        About
+                      </li>
+                    </Link>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+              {/* Additional elements (e.g., profile dropdown) can be added here */}
+            </div>
+          </div>
+        </div>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-            <IconButton
-              size="large"
-              aria-label="account of current user"
-              aria-controls="menu-appbar"
-              aria-haspopup="true"
-              onClick={handleOpenNavMenu}
-              color="inherit"
-            >
-              <MenuIcon />
-            </IconButton>
-            <Menu
-              id="menu-appbar"
-              anchorEl={anchorElNav}
-              anchorOrigin={{
-                vertical: 'bottom',
-                horizontal: 'left',
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'left',
-              }}
-              open={Boolean(anchorElNav)}
-              onClose={handleCloseNavMenu}
-              sx={{
-                display: { xs: 'block', md: 'none' },
-              }}
-            >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center" component={Link} to={page === 'Home' ? '/' : `/${page.toLowerCase()}`}>
-                    {page}
-                  </Typography>
-                </MenuItem>
-              ))}
-            </Menu>
-          </Box>
-
-          <Typography
-            variant="h5"
-            noWrap
-            component={Link}
-            to="/"
-            sx={{
-              display: { xs: 'flex', md: 'none' },
-              flexGrow: 1,
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-          >
-            MujahidulIslam
-          </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: 'flex-end' } }}>
-          {pages.map((page) => (
-            <Button
-              key={page}
-              component={Link}
-              to={page === 'Home' ? '/' : `/${page.toLowerCase()}`}
-              onClick={handleCloseNavMenu}
-              sx={{
-                my: 2,
-                color: 'white',
-                fontFamily: 'monospace',
-                fontSize: '1rem',
-                display: 'block',
-                backgroundColor: page === 'Contact' ? '#511da8' : 'transparent',
-              }}
-            >
-              {page}
-            </Button>
-          ))}
-        </Box>
-
-          <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                {/* Add icon component here */}
-              </IconButton>
-            </Tooltip>
-            <Menu
-              sx={{ mt: '45px' }}
-              id="menu-appbar"
-              anchorEl={anchorElUser}
-              anchorOrigin={{
-                vertical: 'top',
-                horizontal: 'left',
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'left',
-              }}
-              open={Boolean(anchorElUser)}
-              onClose={handleCloseUserMenu}
-            >
-              {/* Add user menu items here */}
-            </Menu>
-          </Box>
-        </Toolbar>
-      </Container>
-    </AppBar>
+        <div className={`sm:hidden ${menu ? "block absolute bg-gray-800 w-full z-50" : "hidden"}`} id="mobile-menu">
+          <div className="space-y-1 px-2 pb-3 pt-2">
+            <ul className="flex flex-col">
+              <Link to={'/'}>
+                <li className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">
+                  Home
+                </li>
+              </Link>
+              <Link to={'/projects'}>
+                <li className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">
+                  Projects
+                </li>
+              </Link>
+              <Link to={'/about'}>
+                <li className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">
+                  About
+                </li>
+              </Link>
+              <Link to={'/contact'}>
+                <li className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">
+                  Contact
+                </li>
+              </Link>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
   );
-}
+};
 
-export default ResponsiveAppBar;
+export default Navbar;

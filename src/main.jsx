@@ -16,6 +16,7 @@ import Blog from './Page/Blog';
 import Project3 from './Page/ProjectDetails/Project3';
 import ContactForm from './Page/ContactForm';
 import Project4 from './Page/ProjectDetails/Project4';
+import ProjectDetail from './Page/Home/ProjectDetail';
 
 const router = createBrowserRouter([
   {
@@ -58,6 +59,10 @@ const router = createBrowserRouter([
     {
       path: '/project4',
       element:<Project4/>
+    },
+    {
+      path: '/projectDetails/:id',
+      element: <ProjectDetail/>
     }
   ]
   },

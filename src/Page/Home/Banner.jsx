@@ -27,9 +27,11 @@ const Banner = () => {
             <div className='flex gap-7 mt-5 ml-5'>
             <div className='flex gap-3'>
             <Link to={'/projects'}>
-            <Button  color='success' variant="contained" >View Projects</Button>
+            <button className="bg-pink-500 hover:bg-pink-600 text-white  font-bold py-2 px-4 rounded">
+              Projects
+            </button>
             </Link>
-            <Button href='https://drive.usercontent.google.com/download?id=1zI_Z7IerPeomLvcOFWZoVTixSs5O3GQ7&export=download&authuser=2&confirm=t&uuid=2b44e543-1a2d-4db8-b8ae-a5a0e8940f53&at=APZUnTUtitdz6hNVOGLE3qIzvlZV:1706365179661' variant="contained" endIcon={<ArrowDownwardIcon />} >download CV</Button>
+            <button href='https://drive.usercontent.google.com/download?id=1zI_Z7IerPeomLvcOFWZoVTixSs5O3GQ7&export=download&authuser=2&confirm=t&uuid=2b44e543-1a2d-4db8-b8ae-a5a0e8940f53&at=APZUnTUtitdz6hNVOGLE3qIzvlZV:1706365179661'className="rounded-md border text-gray-700 hover:text-white border-gray-500 hover:bg-pink-600 hover:border-white font-bold py-2 px-4 rounded" >download CV</button>
             </div>
             </div>
             <p className='mt-5 text-lg font-mono ml-5'>Connect With Me</p>

@@ -4,11 +4,11 @@
 import { useSpring, animated } from 'react-spring';
 
 const educationData = [
-  {
-    degree: 'Bachelor of Arts (B.A)',
-    school: 'National University',
-    year: '2019 - Present',
-  },
+  // {
+  //   degree: 'Bachelor of Arts (B.A)',
+  //   school: 'National University',
+  //   year: '2019 - Present',
+  // },
   {
     degree: 'Higher Secondary Certificate (H.S.C)',
     school: 'Govt. B.M College, Barishal',
@@ -30,7 +30,7 @@ const EducationComponent = () => {
 
   return (
     <div className="py-8 px-6 lg:mx-52 max-w-[1600px] mx-auto mt-5">
-      <h2 className="text-3xl mb-4 text-center font-mono">
+      <h2 className="text-4xl mb-4 text-center font-bold">
         My Education Journey
       </h2>
       <div className="grid gap-4 mt-8">
