@@ -47,7 +47,7 @@ const Banner = () => {
             <FacebookOutlinedIcon sx={{ fontSize: '1.8rem' }}/>
             </Button>
 
-            <Button href='https://github.com/' sx={{ backgroundColor: '#eceff1', }}>
+            <Button href='https://github.com/Mujahid2000' sx={{ backgroundColor: '#eceff1', }}>
             <GitHubIcon sx={{ fontSize: '1.8rem', color: '#000000'}}/>
             </Button>
             </div>
