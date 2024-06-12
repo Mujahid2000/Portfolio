@@ -4,18 +4,19 @@ const Skills = () => {
   const skills = [
     { name: 'HTML', imageUrl: 'https://i.ibb.co/0fs4XyL/html-5-svgrepo-com.jpg' },
     { name: 'CSS', imageUrl: 'https://i.ibb.co/XsCzgdZ/4672509.png' },
-    { name: 'JS', imageUrl: 'https://i.ibb.co/XSjWDqn/javascript-logo-javascript-icon-transparent-free-png.webp' },
+    { name: 'JavaScript', imageUrl: 'https://i.ibb.co/XSjWDqn/javascript-logo-javascript-icon-transparent-free-png.webp' },
     { name: 'Tailwind CSS', imageUrl: 'https://i.ibb.co/8NtHPCT/social-square.jpg' },
     { name: 'React', imageUrl: 'https://i.ibb.co/LSnYRwB/react.jpg' },
     { name: 'GitHub', imageUrl: 'https://i.ibb.co/PjfFNDV/Git-Hub-Mark-ea2971cee799.png' },
     { name: 'Git', imageUrl: 'https://i.ibb.co/C5tB69v/images11-removebg-preview.jpg' },
-    { name: 'NodeJS', imageUrl: 'https://i.ibb.co/9tvBbQw/node-js-emblem-vector-28501403.jpg' },
+    { name: 'Node.JS', imageUrl: 'https://i.ibb.co/9tvBbQw/node-js-emblem-vector-28501403.jpg' },
     { name: 'MongoDB', imageUrl: 'https://i.ibb.co/vvrdx27/images.png' },
-    { name: 'Expressjs', imageUrl: 'https://i.ibb.co/7zq71MB/expressjs-removebg-preview.jpg' },
+    { name: 'Express.Js', imageUrl: 'https://i.ibb.co/7zq71MB/expressjs-removebg-preview.jpg' },
     { name: 'Firebase', imageUrl: 'https://i.ibb.co/xgnVg88/firebase.jpg' },
     { name: 'Mongoose', imageUrl: 'https://i.ibb.co/GkTRSrg/mongoose.png' },
-    { name: 'Next.js', imageUrl: 'https://i.ibb.co/N7FrTLX/nextjs-boilerplate-logo.png' },
+    { name: 'Next.Js', imageUrl: 'https://i.ibb.co/N7FrTLX/nextjs-boilerplate-logo.png' },
     { name: 'MySQL', imageUrl: 'https://i.ibb.co/fGhD2LV/logo-mysql-cdb-for-mysql-7.png' },
+    { name: 'VueJs', imageUrl: 'https://i.ibb.co/jv1zYSr/vuejs.png' },
   ];
 
   return (

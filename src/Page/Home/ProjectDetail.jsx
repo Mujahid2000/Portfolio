@@ -33,15 +33,30 @@ const ProjectDetail = () => {
           </div>
         </div>
         <div className="flex justify-around items-center place-items-center mx-auto">
-          <Link to={data.live_link}>
+          <Link to={data?.live_link}>
           <button className="flex  text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded">Live Link</button>
           </Link>
-          <Link to={data.client_link}>
+         {
+          data.client_link ? 
+          <Link to={data?.client_link}>
           <button className="flex  text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded">Client Site</button>
           </Link>
+          : ''
+         }
+         {
+          data.github_link ?
+          <Link to={data?.github_link}>
+          <button className="flex  text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded">GitHub Link</button>
+          </Link>
+          : ''
+         }
+         {
+          data.server_link ?
           <Link to={data.server_link}>
           <button className="flex  text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded">Server Site</button>
           </Link>
+          : ''
+         }
         </div>
       </div>
     </div>

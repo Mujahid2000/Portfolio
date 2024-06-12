@@ -63,13 +63,12 @@
       "id": 6,
       "title": "Home Decor Project",
       "category": "personal",
-      "overview": "Its a Simple E-commerce Website. Where a use can buy their home decor related products.",
-      "client_link": "https://github.com/Mujahid2000/Home-Decor",
-      "server_link": "https://github.com/Mujahid2000/jobtask-serverside",
-      "live_link": "https://home-decor-chi.vercel.app/",
+      "overview": "It's a Simple E-commerce Website where users can buy home decor related products. I developed both the client and server sides using Next.js.",
+      "github_link": "https://github.com/Mujahid2000/NextJs-Full-Stack",
+      "live_link": "https://next-js-full-stack-nu.vercel.app/",
       "picture": "https://i.ibb.co/DpWjpMk/image-6.jpg",
-      "Technology": "ReactJs,Tailwind CSS, ExpressJS, Firebase, MongoDB"
-      
+      "Technology": "NextJs, Tailwind CSS, Firebase, MongoDB"
     }
+    
   ]
   
