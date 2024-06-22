@@ -25,12 +25,12 @@ const Projects = () => {
           <div className="p-4">
               <h3 className="text-lg font-medium mb-2">{proj.title}</h3>
               <div className="flex items-center justify-between py-4">
-              <Link to={proj.live_link}>
+              <Link to={proj.live_link} target="_blank">
               <button className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded">
               Live link
             </button>
               </Link>
-                 <Link to={`/projectDetails/${proj.id}`}>
+                 <Link to={`/projectDetails/${proj.id}`} >
                  <button className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded">
               Project Details
             </button>
