@@ -1,14 +1,14 @@
 [
     {
       "id": 1,
-      "title": "Streme ",
-      "category": "Group Project",
-      "overview": "The user dashboard facilitates video uploads and playback with features like liking and saving to playlists. Additionally, users can interact with a chatbot and engage in messaging with others. This comprehensive platform provides seamless video management, social interaction, and AI-powered assistance, enhancing the user experience across various activities.",
-      "client_link": "https://github.com/sajalbiswas1/video-stream-client-side",
-      "server_link": "https://github.com/sajalbiswas1/video-stream-server-side",
-      "live_link": "https://streme-eight.vercel.app/",
-      "picture": "https://i.ibb.co/xDbddgt/image-1.jpg",
-      "Technology": "Next.js, Tailwind CSS, ExpressJS, Firebase, Node.js MongoDB."
+      "title": "Fitness Center Project",
+      "category": "personal",
+      "overview": "In this website you can show a home page where have some section. Job category part is one of the most important part. This part show some jobs. In every client can post job by using his account. And a freelancer can apply this job. Here is some or route. When you go my bid jobs how much bid you have and when you go bid request you will show how much job request on your posted jobs.",
+      "client_link": "https://github.com/Mujahid2000/Fitness-Website",
+      "server_link": "https://github.com/Mujahid2000/Fitness-Server",
+      "live_link": "https://fitness-website-amber.vercel.app/",
+      "picture": "https://i.ibb.co/j8VBnGW/image-2.jpg",
+      "Technology": "React, Tailwind CSS, Node.js, Express.js, Firebase, MongoDB, JWT"
       
     },
     {
@@ -23,16 +23,17 @@
       "Technology": "React, Tailwind CSS, Node.js, Express.js, Firebase, MongoDB, JWT"
       
     },
+    
     {
       "id": 3,
-      "title": "Fitness Center Project",
-      "category": "personal",
-      "overview": "In this website you can show a home page where have some section. Job category part is one of the most important part. This part show some jobs. In every client can post job by using his account. And a freelancer can apply this job. Here is some or route. When you go my bid jobs how much bid you have and when you go bid request you will show how much job request on your posted jobs.",
-      "client_link": "https://github.com/Mujahid2000/Fitness-Website",
-      "server_link": "https://github.com/Mujahid2000/Fitness-Server",
-      "live_link": "https://fitness-website-amber.vercel.app/",
-      "picture": "https://i.ibb.co/j8VBnGW/image-2.jpg",
-      "Technology": "React, Tailwind CSS, Node.js, Express.js, Firebase, MongoDB, JWT"
+      "title": "Streme ",
+      "category": "Group Project",
+      "overview": "The user dashboard facilitates video uploads and playback with features like liking and saving to playlists. Additionally, users can interact with a chatbot and engage in messaging with others. This comprehensive platform provides seamless video management, social interaction, and AI-powered assistance, enhancing the user experience across various activities.",
+      "client_link": "https://github.com/sajalbiswas1/video-stream-client-side",
+      "server_link": "https://github.com/sajalbiswas1/video-stream-server-side",
+      "live_link": "https://streme-eight.vercel.app/",
+      "picture": "https://i.ibb.co/xDbddgt/image-1.jpg",
+      "Technology": "Next.js, Tailwind CSS, ExpressJS, Firebase, Node.js MongoDB."
       
     },
     {
