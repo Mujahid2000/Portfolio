@@ -14,9 +14,9 @@ const Banner = () => {
             <h2 className='flex ml-5 text-base lg:text-2xl lg:mt-4 font-mono'>I'm a <span className='font-bold text-cyan-500 text-base lg:text-3xl'>
                 <MovingComponent type="typewriter"
             dataText={[
-            'MERN Stack Developer',
-            'React Developer',
-            'Javascript Developer'
+            'Full Stack Developer',
+            'Frontend Developer',
+            'MERN Stack Developer'
             ]} />
             </span> 
             </h2>
