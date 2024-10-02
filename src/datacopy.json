@@ -26,6 +26,18 @@
   
   {
     "id": 3,
+    "title": "Restaurant",
+    "category": "Personal Project",
+    "overview": "This is a simple restaurant website where a user can see the breakfast, lunch dinner and other time menu item . Also in this website has some popular item on item route. when user go to the item details page user can see the item details and if user want to add to cart or wishlist use can do this. After login user see the profile menu dropdown on the navbar. When the dropdown is open user see the Profile, wishlist , cart page and also see the logout button. In wishlist page user see their favorite item and cart page see the cart item . In the cart page user can order his item.",
+    "client_link": "https://github.com/Mujahid2000/Restaurant-",
+    "server_link": "https://github.com/Mujahid2000/Restaurant-Server",
+    "live_link": "https://restaurant-beta-lemon.vercel.app/",
+    "picture": "https://i.ibb.co.com/CnQV9wS/Screenshot-2-10-2024-19657-restaurant-beta-lemon-vercel-app.jpg",
+    "Technology": "Vue.js, Tailwind CSS, ExpressJS, Firebase, Node.js, Mongoose, MongoDB."
+    
+  },
+  {
+    "id": 4,
     "title": "Streme ",
     "category": "Group Project",
     "overview": "The user dashboard facilitates video uploads and playback with features like liking and saving to playlists. Additionally, users can interact with a chatbot and engage in messaging with others. This comprehensive platform provides seamless video management, social interaction, and AI-powered assistance, enhancing the user experience across various activities.",
@@ -37,7 +49,7 @@
     
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Taskla Project",
     "category": "Personal Project",
     "overview": "In this website you can show a home page where have some section. Job category part is one of the most important part. This part show some jobs. In every client can post job by using his account. And a freelancer can apply this job. Here is some or route. When you go my bid jobs how much bid you have and when you go bid request you will show how much job request on your posted jobs.",
@@ -49,7 +61,7 @@
     
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Car Deals Project",
     "category": "Personal Project",
     "overview": "Explore a dynamic car marketplace with a homepage featuring car brands. Navigate through the navbar to discover brand-specific products. View, update details, and add products to the cart. Experience a comprehensive platform for buying, selling, and updating cars with user-friendly interactions.",
@@ -61,7 +73,7 @@
     
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Home Decor Project",
     "category": "personal",
     "overview": "It's a Simple E-commerce Website where users can buy home decor related products. I developed both the client and server sides using Next.js.",
