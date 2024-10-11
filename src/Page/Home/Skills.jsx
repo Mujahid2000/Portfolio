@@ -7,16 +7,16 @@ const Skills = () => {
     { name: 'JavaScript', imageUrl: 'https://i.ibb.co/XSjWDqn/javascript-logo-javascript-icon-transparent-free-png.webp' },
     { name: 'Tailwind CSS', imageUrl: 'https://i.ibb.co/8NtHPCT/social-square.jpg' },
     { name: 'React', imageUrl: 'https://i.ibb.co/LSnYRwB/react.jpg' },
+    { name: 'Next.Js', imageUrl: 'https://i.ibb.co/N7FrTLX/nextjs-boilerplate-logo.png' },
     { name: 'VueJs', imageUrl: 'https://i.ibb.co/jv1zYSr/vuejs.png' },
+    { name: 'Node.JS', imageUrl: 'https://i.ibb.co/9tvBbQw/node-js-emblem-vector-28501403.jpg' },
+    { name: 'Express.Js', imageUrl: 'https://i.ibb.co/7zq71MB/expressjs-removebg-preview.jpg' },
+    { name: 'MongoDB', imageUrl: 'https://i.ibb.co/vvrdx27/images.png' },
+    { name: 'Mongoose', imageUrl: 'https://i.ibb.co/GkTRSrg/mongoose.png' },
+    { name: 'MySQL', imageUrl: 'https://i.ibb.co/fGhD2LV/logo-mysql-cdb-for-mysql-7.png' },
     { name: 'GitHub', imageUrl: 'https://i.ibb.co/PjfFNDV/Git-Hub-Mark-ea2971cee799.png' },
     { name: 'Git', imageUrl: 'https://i.ibb.co/C5tB69v/images11-removebg-preview.jpg' },
-    { name: 'Node.JS', imageUrl: 'https://i.ibb.co/9tvBbQw/node-js-emblem-vector-28501403.jpg' },
-    { name: 'MongoDB', imageUrl: 'https://i.ibb.co/vvrdx27/images.png' },
-    { name: 'Express.Js', imageUrl: 'https://i.ibb.co/7zq71MB/expressjs-removebg-preview.jpg' },
     { name: 'Firebase', imageUrl: 'https://i.ibb.co/xgnVg88/firebase.jpg' },
-    { name: 'Mongoose', imageUrl: 'https://i.ibb.co/GkTRSrg/mongoose.png' },
-    { name: 'Next.Js', imageUrl: 'https://i.ibb.co/N7FrTLX/nextjs-boilerplate-logo.png' },
-    { name: 'MySQL', imageUrl: 'https://i.ibb.co/fGhD2LV/logo-mysql-cdb-for-mysql-7.png' },
   ];
 
   return (
