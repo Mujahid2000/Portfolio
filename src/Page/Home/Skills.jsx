@@ -15,6 +15,7 @@ const Skills = () => {
     { name: 'MongoDB', imageUrl: 'https://i.ibb.co/vvrdx27/images.png' },
     { name: 'Mongoose', imageUrl: 'https://i.ibb.co/GkTRSrg/mongoose.png' },
     { name: 'MySQL', imageUrl: 'https://i.ibb.co/fGhD2LV/logo-mysql-cdb-for-mysql-7.png' },
+    { name: 'Supabase', imageUrl: 'https://i.ibb.co.com/ZxXbpVC/supabase-logo-DCC676-FFE2-seeklogo-com.png' },
     { name: 'Firebase', imageUrl: 'https://i.ibb.co/xgnVg88/firebase.jpg' },
     { name: 'GitHub', imageUrl: 'https://i.ibb.co/PjfFNDV/Git-Hub-Mark-ea2971cee799.png' },
     { name: 'Git', imageUrl: 'https://i.ibb.co/C5tB69v/images11-removebg-preview.jpg' },
