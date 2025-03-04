@@ -4,11 +4,11 @@
 import { useSpring, animated } from 'react-spring';
 
 const educationData = [
-  // {
-  //   degree: 'Bachelor of Arts (B.A)',
-  //   school: 'National University',
-  //   year: '2019 - Present',
-  // },
+  {
+    degree: 'Bachelor of Arts (B.A)',
+    school: 'National University',
+    year: '2019 - Present',
+  },
   {
     degree: 'Higher Secondary Certificate (H.S.C)',
     school: 'Govt. B.M College, Barishal',

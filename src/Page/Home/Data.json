@@ -4,11 +4,11 @@
       "title": "Fitness Center Project",
       "category": "personal",
       "overview": "In this website you can show a home page where have some section. Job category part is one of the most important part. This part show some jobs. In every client can post job by using his account. And a freelancer can apply this job. Here is some or route. When you go my bid jobs how much bid you have and when you go bid request you will show how much job request on your posted jobs.",
-      "client_link": "https://github.com/Mujahid2000/Fitness-Website",
-      "server_link": "https://github.com/Mujahid2000/Fitness-Server",
-      "live_link": "https://fitness-website-amber.vercel.app/",
+      "client_link": "https://github.com/Mujahid2000/gym-center",
+      "server_link": "https://github.com/Mujahid2000/gym-center",
+      "live_link": "https://gym-center-eta.vercel.app/",
       "picture": "https://i.ibb.co/j8VBnGW/image-2.jpg",
-      "Technology": "React, Tailwind CSS, Node.js, Express.js, Firebase, MongoDB, JWT"
+      "Technology": "React, Tailwind CSS, Node.js, Express.js, Firebase, MongoDB, Mongoose, TanStack Query, Stripe, JWT."
       
     },
     {
@@ -38,6 +38,16 @@
     },
     {
       "id": 4,
+      "title": "Home Decor Project",
+      "category": "personal",
+      "overview": "It's a Simple E-commerce Website where users can buy home decor related products. I developed both the client and server sides using Next.js.",
+      "github_link": "https://github.com/Mujahid2000/NextJs-Full-Stack",
+      "live_link": "https://next-js-full-stack-nu.vercel.app/",
+      "picture": "https://i.ibb.co/DpWjpMk/image-6.jpg",
+      "Technology": "NextJs, Tailwind CSS, Firebase, MongoDB"
+    },
+    {
+      "id": 5,
       "title": "Taskla Project",
       "category": "personal",
       "overview": "In this website you can show a home page where have some section. Job category part is one of the most important part. This part show some jobs. In every client can post job by using his account. And a freelancer can apply this job. Here is some or route. When you go my bid jobs how much bid you have and when you go bid request you will show how much job request on your posted jobs.",
@@ -49,7 +59,7 @@
       
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Car Deals Project",
       "category": "personal",
       "overview": "Explore a dynamic car marketplace with a homepage featuring car brands. Navigate through the navbar to discover brand-specific products. View, update details, and add products to the cart. Experience a comprehensive platform for buying, selling, and updating cars with user-friendly interactions.",
@@ -59,16 +69,6 @@
       "picture": "https://i.ibb.co/6tzhCMc/image-4.jpg",
       "Technology": "ReactJs,Tailwind CSS, ExpressJS, Firebase, MongoDB"
       
-    },
-    {
-      "id": 6,
-      "title": "Home Decor Project",
-      "category": "personal",
-      "overview": "It's a Simple E-commerce Website where users can buy home decor related products. I developed both the client and server sides using Next.js.",
-      "github_link": "https://github.com/Mujahid2000/NextJs-Full-Stack",
-      "live_link": "https://next-js-full-stack-nu.vercel.app/",
-      "picture": "https://i.ibb.co/DpWjpMk/image-6.jpg",
-      "Technology": "NextJs, Tailwind CSS, Firebase, MongoDB"
     }
     
   ]

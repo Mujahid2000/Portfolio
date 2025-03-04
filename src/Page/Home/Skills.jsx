@@ -5,15 +5,19 @@ const Skills = () => {
     { name: 'HTML', imageUrl: 'https://i.ibb.co/0fs4XyL/html-5-svgrepo-com.jpg' },
     { name: 'CSS', imageUrl: 'https://i.ibb.co/XsCzgdZ/4672509.png' },
     { name: 'JavaScript', imageUrl: 'https://i.ibb.co/XSjWDqn/javascript-logo-javascript-icon-transparent-free-png.webp' },
+    { name: 'TypeScript', imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Typescript.svg/1200px-Typescript.svg.png' },
     { name: 'Tailwind CSS', imageUrl: 'https://i.ibb.co/8NtHPCT/social-square.jpg' },
     { name: 'React', imageUrl: 'https://i.ibb.co/LSnYRwB/react.jpg' },
     { name: 'React Router', imageUrl: 'https://i.ibb.co.com/7j03tvX/React-Router-logo-vector-01.webp' },
     { name: 'Next.Js', imageUrl: 'https://i.ibb.co/N7FrTLX/nextjs-boilerplate-logo.png' },
     { name: 'VueJs', imageUrl: 'https://i.ibb.co/jv1zYSr/vuejs.png' },
+    { name: 'Redux', imageUrl: 'https://miro.medium.com/v2/resize:fit:500/1*tOI6UC5EaS2fPItCesI-AQ.png' },
+    { name: 'TanStack Query', imageUrl: 'https://i.imgur.com/Kqxbl5Q.png' },
     { name: 'Node.JS', imageUrl: 'https://i.ibb.co/9tvBbQw/node-js-emblem-vector-28501403.jpg' },
     { name: 'Express.Js', imageUrl: 'https://i.ibb.co/7zq71MB/expressjs-removebg-preview.jpg' },
     { name: 'MongoDB', imageUrl: 'https://i.ibb.co/vvrdx27/images.png' },
     { name: 'Mongoose', imageUrl: 'https://i.ibb.co/GkTRSrg/mongoose.png' },
+    { name: 'PostgreSQL', imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/800px-Postgresql_elephant.svg.png' },
     { name: 'MySQL', imageUrl: 'https://i.ibb.co/fGhD2LV/logo-mysql-cdb-for-mysql-7.png' },
     { name: 'Supabase', imageUrl: 'https://i.ibb.co.com/ZxXbpVC/supabase-logo-DCC676-FFE2-seeklogo-com.png' },
     { name: 'Firebase', imageUrl: 'https://i.ibb.co/xgnVg88/firebase.jpg' },
@@ -27,7 +31,7 @@ const Skills = () => {
       <div className="grid mx-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-7 gap-6">
         {skills.map(skill => (
           <div key={skill.name} className="relative gap-5 group w-40 py-2 rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
-            <img className="w-full h-32 object-cover" src={skill.imageUrl} alt={`${skill.name} logo`} />
+            <img className="w-full h-32 object-contain" src={skill.imageUrl} alt={`${skill.name} logo`} />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
               <p className="text-xl text-white font-bold">{skill.name}</p>
             </div>

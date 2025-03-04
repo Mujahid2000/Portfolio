@@ -31,7 +31,7 @@ const Banner = () => {
               Projects
             </button>
             </Link>
-            <Link to={'https://drive.usercontent.google.com/download?id=1H-ZX6NXpM7zkCtWMYNJIy0BE6G1snVf3&export=download&authuser=0'}>
+            <Link to={'https://drive.usercontent.google.com/download?id=14vdLyqgzUFazTMNPqL4wKD5YPE0HlAUI&export=download&authuser=0&confirm=t&uuid=43f9de78-d6c7-4738-9329-8b143066f8bd&at=AEz70l44vtTUuYTSeod-Qvatsu1k:1741113951332'}>
             
             <button className="rounded-md border text-gray-700 hover:text-white border-gray-500 hover:bg-pink-600 hover:border-white font-bold py-2 px-4" >download CV</button>
             </Link>
